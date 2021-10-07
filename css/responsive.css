@@ -1,7 +1,14 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  h1, h2, h3, h4, h5 {
+  font-size: 40px;
+}
   .section {
-    padding: 60px 0 45px;
+    padding: 60px 45px 45px 45px;
   }
+ #app-features2 h4{
+  font-size: 24px;
+
+ }
   .section-header .section-title {
     font-size: 22px;
   }
@@ -81,6 +88,9 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+   h1, h2, h3, h4, h5 {
+  font-size: 35px;
+}
   .navbar-brand img {
     width: 80px;
   }
@@ -100,6 +110,7 @@
   }
   .hero-area-2 .intro-img {
     padding: 20px 0px 0px;
+    max-width: 70%;
   }
   .intro-img {
     padding: 0;
@@ -152,8 +163,14 @@
 }
 
 @media only screen and (max-width: 767px) {
+   h1, h2, h3, h4, h5 {
+  font-size: 30px;
+}
+#app-features2 .show-box2 img {
+    width: 100%;
+}
   .section {
-    padding: 60px 0 45px;
+    padding: 60px 45px 45px 45px;
   }
   .hero-area .contents {
     padding: 100px 0 20px;
@@ -172,9 +189,11 @@
   }
   .hero-area-2 .intro-img {
     padding: 20px 0px 0px;
+    max-width: 80%;
   }
   .hero-area .intro-img {
     padding: 60px 0 0;
+    max-width: 60%;
   }
   .navbar {
     padding: 0;
@@ -273,7 +292,7 @@
     padding: 50px 0;
   }
   #download .download-wrapper .download-text h4 {
-    font-size: 24px;
+    font-size: 20px;
   }
   #contact h2 {
     font-size: 18px;
@@ -290,8 +309,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+   h1, h2, h3, h4, h5 {
+  font-size: 25px;
+}
   .section {
-    padding: 60px 0 45px;
+    padding: 60px 45px 45px 45px;
   }
   .section-header {
     margin-bottom: 30px;
@@ -300,7 +322,7 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #fff;
+    background: #f6fbfd;
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
