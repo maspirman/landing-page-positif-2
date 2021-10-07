@@ -631,7 +631,7 @@ button:focus {
 
 .navbar-expand-md .navbar-toggler {
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #3c96ff;
   border-radius: 3px;
   margin: 5px;
   cursor: pointer;
@@ -639,7 +639,7 @@ button:focus {
 }
 
 .navbar-expand-md .navbar-toggler i {
-  color: #fff !important;
+  color: #3c96ff !important;
 }
 
 .navbar-expand-md .navbar-toggler:focus {
